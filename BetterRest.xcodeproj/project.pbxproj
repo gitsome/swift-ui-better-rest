@@ -11,6 +11,7 @@
 		E7CCB00128D4C5380072D872 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CCB00028D4C5380072D872 /* ContentView.swift */; };
 		E7CCB00328D4C53A0072D872 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7CCB00228D4C53A0072D872 /* Assets.xcassets */; };
 		E7CCB00628D4C53A0072D872 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7CCB00528D4C53A0072D872 /* Preview Assets.xcassets */; };
+		E7CCB00D28D4D8370072D872 /* SleepCalculatorModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E7CCB00C28D4D8370072D872 /* SleepCalculatorModel.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		E7CCB00028D4C5380072D872 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E7CCB00228D4C53A0072D872 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7CCB00528D4C53A0072D872 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E7CCB00C28D4D8370072D872 /* SleepCalculatorModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculatorModel.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 				E7CCAFFE28D4C5380072D872 /* BetterRestApp.swift */,
 				E7CCB00028D4C5380072D872 /* ContentView.swift */,
 				E7CCB00228D4C53A0072D872 /* Assets.xcassets */,
+				E7CCB00C28D4D8370072D872 /* SleepCalculatorModel.mlmodel */,
 				E7CCB00428D4C53A0072D872 /* Preview Content */,
 			);
 			path = BetterRest;
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7CCB00128D4C5380072D872 /* ContentView.swift in Sources */,
+				E7CCB00D28D4D8370072D872 /* SleepCalculatorModel.mlmodel in Sources */,
 				E7CCAFFF28D4C5380072D872 /* BetterRestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,7 +284,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Hacking-with-Swift.BetterRest";
+				PRODUCT_BUNDLE_IDENTIFIER = "johndavidmartin.better-rest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -309,7 +313,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Hacking-with-Swift.BetterRest";
+				PRODUCT_BUNDLE_IDENTIFIER = "johndavidmartin.better-rest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
